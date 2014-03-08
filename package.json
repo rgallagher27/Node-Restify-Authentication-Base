@@ -1,0 +1,27 @@
+{
+    "name": "GeoVantage-API-Server",
+    "description": "An OAuth 2 API server for GeoVantage",
+    "keywords": ["authentication", "api"],
+    "version": "0.0.5",
+    "author": "Ross Gallagher",
+    "repository" : "https://github.com/rgallagher27/GeoVantage-Server",
+    "private" : true,
+    "main": "web.js",
+    "engines": 
+    {
+        "node"  : "0.10.x",
+        "npm"   : "1.2.x"
+    }, 
+    "dependencies": 
+    {
+        "restify"               : "*"
+        , "cluster"             : "*"
+        , "underscore"          : "*"
+        , "mongoose"            : "*"
+        , "mongoose-validator"  : "*"
+        , "bcrypt"              : "*"
+        , "node-uuid"           : "*"
+        , "when"                : "*"
+        , "jsonwebtoken"        : "*"
+    }
+}
